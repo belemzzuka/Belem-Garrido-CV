@@ -1,0 +1,27 @@
+body{
+    background-image: url(blue.jpeg);
+    font-family: 'Yomogi', bold;
+    font-size: 20px;
+}
+#social h3{
+    color: darkgoldenrod;
+}
+
+#personal li{
+    color: lightpink;
+}
+
+nav table{
+    color: lightgreen;
+    list-style: none;
+}
+
+th{
+    width: 350px;
+}
+
+footer{
+    color: lightseagreen;
+    font-size: 25px;
+}
+
