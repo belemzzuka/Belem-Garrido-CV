@@ -1,19 +1,35 @@
 body{
     background-image: url(blue.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     font-family: 'Yomogi', bold;
     font-size: 20px;
 }
+
+nav ul{
+    color: lightgreen;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+div p{
+    display: inline-block;
+    width: 600px;
+    color: antiquewhite;
+    vertical-align: top;
+}
+
 #social h3{
     color: darkgoldenrod;
 }
 
 #personal li{
     color: lightpink;
-}
-
-nav table{
-    color: lightgreen;
-    list-style: none;
 }
 
 th{
@@ -23,5 +39,8 @@ th{
 footer{
     color: lightseagreen;
     font-size: 45px;
+    padding: 5px;
+    border: 10px solid crimson;
+    margin: 25px;
 }
 
